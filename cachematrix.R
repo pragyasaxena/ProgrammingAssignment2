@@ -1,8 +1,10 @@
-## Put comments here that give an overall description of what your
-## functions do
+## cachesolve computes the inverse of the o/p returned by 
+## makeCacheMatrix. If the inverse has already been calculated 
+## (and the matrix has not changed), then cacheSolve retrieves it 
+## from the cache.
 
-## makeCacheMatrix stores a list of four functions to be applied on the
-## input matrix
+## makeCacheMatrix returns a list of four functions to be applied on the
+## input matrix whose inverse needs to be cached.
 
 makeCacheMatrix <- function(x = matrix()) {
   inverse <- NULL
